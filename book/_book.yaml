@@ -1,0 +1,10 @@
+title: Software Knowhow
+author: Luka Paulic
+language: en
+output_dir: _book
+gitbook: '3.2.3'
+structure:
+  readme: README.md
+  chapters:
+    - book/index.md
+    - book/engineering-reading-list/index.md
