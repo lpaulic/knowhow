@@ -1,9 +1,0 @@
-[codespell]
-skip = .git,.github,.gitignore,assets
-quiet-level = 2
-builtin = clear,rare,names
-ignore-words = .codespell-ignore-words.txt
-write-changes = 
-check-filenames =
-check-hidden =
-
