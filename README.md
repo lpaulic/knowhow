@@ -1,4 +1,4 @@
-# Software knowhow
+# Knowhow
 Repository for software knowhow gathered throguh the years.
 
 ## Getting around
@@ -7,6 +7,8 @@ software engineering in Linux and Embedded Linux. This repository was not
 maintained from the beginning of my work experience so some things that I've 
 have experience in is not documente, but they will be added when and if 
 I need to use that knowledge again.
+
+Other domains, apart from software, will be added in the future.
 
 The idea for this repository is to contain templates, knowledge, book notes,
 etc.
