@@ -1,0 +1,62 @@
+name: Build and Deploy GitBook
+
+on:
+  pull_request:
+    branches:
+      - development
+      - master
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Build GitBook
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '12.18.2'
+
+      - name: Install GitBook CLI
+        run: npm install -g gitbook-cli
+
+      - name: Install Plugins
+        run: gitbook install
+
+      - name: Build GitBook
+        run: gitbook build ./ ./docs
+
+      - name: Archive Build Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: gitbook-build
+          path: ./docs
+
+  deploy:
+    name: Deploy GitBook
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Download Build Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: gitbook-build
+          path: ./docs
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+

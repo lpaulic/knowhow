@@ -1,0 +1,20 @@
+{
+    "root": "./",
+    "structure": {
+        "readme": "README.md",
+        "summary": "SUMMARY.md"
+    },
+    "title": "Knowhow",
+    "description": "Gathered know how in different domains, mainly software",
+    "author": "lpaulic",
+    "language": "en",
+    "plugins": [
+        "bottom-navigation",
+        "-sharing"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "theme": "dark"
+        }
+    }
+}
