@@ -35,3 +35,6 @@
     - [Clean Craftsmanship](./domains/software/engineering-reading-list/software-development-methodologies/clean-craftsmanship.md)
     - [Pragmatic Programmer](./domains/software/engineering-reading-list/software-development-methodologies/pragmatic-programmer.md)
 
+### Text editors
+
+- [Neovim](./domains/software/text-editors/nvim.md)
