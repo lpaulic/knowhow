@@ -23,7 +23,16 @@
 
 ### Templates
 
-- [Bitbake recipe](./domains/software/templates/bitbake/recipe.md)
+- Bitbake 
+    - [Recipe file](./domains/software/templates/bitbake/recipe.md)
+- C language
+    - [Source file](./domains/software/templates/c-lang/c-source-file.md)
+    - [Header file](./domains/software/templates/c-lang/c-header-file.md)
+    - [Clangd formatter](./domains/software/templates/c-lang/clangd-format.md)
+- Scripting
+    - [Bash file](./domains/software/templates/scripting/bash-script.md)
+- UML
+    - [Use-case textual definition](./domains/software/templates/uml/use-case-description.md)
 
 ### [Books](./domains/software/books/README.md)
 
