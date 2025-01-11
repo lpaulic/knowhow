@@ -6,6 +6,21 @@
 
 ## Software knowhow
 
+### Build systems
+
+- Yocto/OpenEmbedded
+    - [OpenEmbedded](./domains/software/build-systems/yocto-openembedded/openembedded.md)
+    - [Yocto Project](./domains/software/build-systems/yocto-openembedded/yocto-project.md)
+    - [Poky](./domains/software/build-systems/yocto-openembedded/poky.md)
+    - [SDK](./domains/software/build-systems/yocto-openembedded/sdk.md)
+    - [Bitbake](./domains/software/build-systems/yocto-openembedded/bitbake.md)
+    - [Devtool](./domains/software/build-systems/yocto-openembedded/devtool.md)
+    - [Toaster](./domains/software/build-systems/yocto-openembedded/toaster.md)
+
+### Templates
+
+- [Bitbake recipe](./domains/software/templates/bitbake/recipe.md)
+
 ### [Engineering reading list](./domains/software/engineering-reading-list/README.md)
 
 - Algorigthms and data structures
