@@ -17,6 +17,11 @@
     - [Devtool](./domains/software/build-systems/yocto-openembedded/devtool.md)
     - [Toaster](./domains/software/build-systems/yocto-openembedded/toaster.md)
 
+### Operating systems
+
+- Zephyr
+    - [West meta-tool](./domains/software/operating-systems/zephyr/west.md)
+
 ### Text editors
 
 - [Neovim](./domains/software/text-editors/nvim.md)
