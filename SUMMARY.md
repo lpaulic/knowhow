@@ -21,6 +21,8 @@
 
 - Zephyr
     - [West meta-tool](./domains/software/operating-systems/zephyr/west.md)
+- FreeRTOS
+    - [Overview](./domains/software/operating-systems/freertos/overview.md)
 
 ### Text editors
 
