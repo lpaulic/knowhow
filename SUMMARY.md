@@ -19,6 +19,17 @@
 
 ### Operating systems
 
+- Linux
+    - Kernel
+        - [Debugging](./domains/software/operating-systems/linux/kernel/debugging.md)
+        - [Runtime](./domains/software/operating-systems/linux/kernel/runtime.md)
+    - Drivers
+        - [Initialization](./domains/software/operating-systems/linux/kernel/subsystems/drivers/initialization.md)
+        - [GPIO devices](./domains/software/operating-systems/linux/kernel/subsystems/drivers/gpio-devices.md)
+        - [I2C devices](./domains/software/operating-systems/linux/kernel/subsystems/drivers/i2c-devices.md)
+        - [Best practices](./domains/software/operating-systems/linux/kernel/subsystems/drivers/best-practices.md)
+    - Devicetree
+        - [General](./domains/software/operating-systems/linux/devicetree/general.md)
 - Zephyr
     - [West meta-tool](./domains/software/operating-systems/zephyr/west.md)
 - FreeRTOS
