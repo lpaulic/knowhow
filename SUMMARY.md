@@ -43,6 +43,11 @@
 - FreeRTOS
     - [Overview](./domains/software/operating-systems/freertos/overview.md)
 
+### Protocols
+
+- Automation
+    - [KNX](./domains/software/protocols/automation/knx.md)
+
 ### Text editors
 
 - [Neovim](./domains/software/text-editors/nvim.md)
