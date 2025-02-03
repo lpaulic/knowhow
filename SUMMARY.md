@@ -6,6 +6,14 @@
 
 ## Software knowhow
 
+### Embedded Software
+
+- [Overview](./domains/software/embedded-software/overview.md)
+- [Basic Electronic Components](./domains/software/embedded-software/basic-electronic-components.md)
+- [Basic Schematic Elements](./domains/software/embedded-software/basic-schematic-elements.md)
+- [Basic Electronic Instruments and Tools](./domains/software/embedded-software/basic-electronic-instruments-and-tools.md)
+- [Electronic Modules Safety](./domains/software/embedded-software/electronic-modules-safety.md)
+
 ### Build systems
 
 - Yocto/OpenEmbedded
