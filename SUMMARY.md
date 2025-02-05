@@ -43,6 +43,10 @@
 - FreeRTOS
     - [Overview](./domains/software/operating-systems/freertos/overview.md)
 
+### Source Code Management
+
+- [Git](./domains/software/scm/git.md)
+
 ### Virtualization
 
 - Open Container Initiative - OCI
