@@ -43,6 +43,14 @@
 - FreeRTOS
     - [Overview](./domains/software/operating-systems/freertos/overview.md)
 
+### Virtualization
+
+- Open Container Initiative - OCI
+    - [OCI Image Specification](./domains/software/virtualization/oci/image-specification.md)
+    - [OCI Distribution Specification](./domains/software/virtualization/oci/distribution-specification.md)
+- Docker
+    - [Debugging](./domains/software/virtualization/docker/debugging.md)
+
 ### Protocols
 
 - Automation
