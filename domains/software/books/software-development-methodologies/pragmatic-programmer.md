@@ -368,9 +368,91 @@ Areas to look for in architectural prototypes:
 Does it have access when it needs to?
 - Is it ETC?
 
+Domain languages are used when describing the problem into code. The idea is to 
+use the language close to the problem domain. If you want to describe how the system
+behaves a pseudo-like language might be the best file like:
+- [RSpec](https;//rspec.info) 
+- [Cucumber](https://cucumber.io)
+
+When writing netowork applications having requests and responses 
+specified as routes and filters and responses is better than codding 
+it in a programming language way, i.e.: [Phoenix Routes](https://phoenixframework.org/)
+
+Setting up an server is also better if you could have a specification 
+written in one language and the whole configuration is done automatically.
+The language for this is: [Ansimble](https://www.ansible.com)
+
+Use the languages the describe the problem more natural to the domain.
+
+The general tip is: *Program Close to the Problem Domain*.
+
+Estimating is important to avoid suprises with non-techincal 
+people that you are working with. All estimates will never be 
+100% accurate, they are after all estimates. To have a more accurate estimate 
+more time has to be invested to analyze the problem. It is important to know 
+who is asking for the estimate, and how accurate they want it.
+
+Formating the estimate in appropriate units is also important. If you estimate in 
+days people will expect it do be done fairly quickly, even if you estimate 
+140 working days, which is ~5 months. Below is a table to depict how communicate
+estimates:
+- 1-15 days -> Days
+- 3-6 weeks -> Weeks 
+- 8-20 weeks -> Months
+- 20+ weeks -> Think hard before giving an estimate
+
+Estimates are based on the models of the problem. To have a good estimate 
+a good model of the problem has to exists. But before discussing how 
+to build a good model, the best trick for a good estimate: 
+**Ask someone who has already done it.**
+Most likely you won't get the same match to your problem, but 
+check what was their problem and how they dealth with it. Than you 
+can compare it to yours and estimate for the differences based on 
+experience.
+
+Allways think about the scope of the domain and the scope of the 
+particular problem you are estimating. This will never be directly 
+presented in a question but you must take it into account.
+
+The model of the system is the high-level representation of the 
+system and the environment it is used. It is usefull to have 
+for discussions with non-tech poeople or when discussing 
+solutions with the team. The more detail in the model 
+the more accurate the estimation. But it takes more time 
+to build a detailed model. So be ware of the trade off.
+
+Separate the model in components and discover the rules 
+that describe the componentes. The relationship with other 
+models, usually described with mathematics.
+
+Each component will have parameters that affect how 
+the component affect the model. Assing values to each 
+parameter. These values will have errors but the goals is 
+work out which paramters have most impact on the result 
+and assing them correctly. For example parameters that 
+multiply with something have a bigger impact than those 
+who add to something.
+
+There should be a justifiable way of calculating these 
+parameters and they should be written down so they can be 
+used to back up your descisions and so people who get to the 
+project after you know what has been done. Best way 
+to get these parameters is to do some measurements on 
+a prototype, or a similar system.
+
+The answers will rarely be simple, or a one number answer.
+They will always be tight to a scenario and varie to the 
+various inputs of the environemnt and the model.
+
+Last important note is to adjust the estimates and 
+schedule after every iteration where the code is changed.
+More knowledge will be gained, more things will become clear 
+and the estiamates should be updated to reflect that. 
 
 Chapters: The Essence of Good Design, DRY, Orthogonality, Tracer Bullets,
-Prototypes and Post-it Notes
+Prototypes and Post-it Notes, Domain Languages, Estimates
+
+### Tools of a Pragmatic Programmer
 
 ## References
 
