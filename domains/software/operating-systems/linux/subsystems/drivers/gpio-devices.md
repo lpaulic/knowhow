@@ -1,4 +1,12 @@
+---
+layout: default
+title: Linux Drivers GPIO
+parent: Linux Drivers
+nav_order: 3
+---
+
 # GPIO devices
+{: .no_toc }
 
 ## How is a GPIO built
 

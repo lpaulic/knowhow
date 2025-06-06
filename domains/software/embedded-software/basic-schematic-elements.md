@@ -1,4 +1,12 @@
+---
+layout: default
+title: Basic Schematic Elements 
+parent: Embedded Software
+nav_order: 3
+---
+
 # Basic schematic elements
+{: .no_toc }
 
 Hardwre department in Bytelab uses [Altium Designer](https://www.altium.com/altium-designer). The nomenclature
 depends on the hardware design tool used but the differences are not big.

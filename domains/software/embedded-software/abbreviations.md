@@ -1,4 +1,13 @@
-## Abbreviations
+---
+layout: default
+title: Abbreviations 
+parent: Embedded Software
+nav_order: 1
+---
+
+# Abbreviations
+{: .no_toc }
+
 - DNP 
     - "do not place". Type of components that are present in the schematic andPCB
     PCB, but are not mounted during the actual assembly of electronic module. For

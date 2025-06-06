@@ -1,4 +1,12 @@
-Generic bitbake recipe template:
+---
+layout: default
+title: Bitbake Templates
+parent: Templates
+nav_order: 1
+---
+
+# Generic bitbake recipe template:
+{: .no_toc }
 
 ```
 # Metadata section

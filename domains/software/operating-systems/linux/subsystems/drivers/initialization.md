@@ -1,4 +1,12 @@
+---
+layout: default
+title: Linux Drivers Initialization 
+parent: Linux Drivers
+nav_order: 2
+---
+
 # Driver initialization
+{: .no_toc }
 
 ## Device tree influence
 - ordering of the device nodes, for the same bus, inside the device does not affect the device/driver initialization in the Linux Kernel

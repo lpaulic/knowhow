@@ -1,4 +1,12 @@
+---
+layout: default
+title: Clean Craftsmanship 
+parent: Software Development Methodologies
+nav_order: 2
+---
+
 # [Clean Craftsmanship: Disciplines, Standards, and Ethics](https://www.amazon.com/Clean-Craftsmanship-Disciplines-Standards-Ethics/dp/013691571X)
+{: .no_toc }
 
 ![Clean Craftsmanship: Disciplines, Standards, and Ethics cover](https://m.media-amazon.com/images/I/61Pk6qD6stL._SL1360_.jpg "Clean Craftsmanship: Disciplines, Standards, and Ethics cover")
 

@@ -1,4 +1,12 @@
+---
+layout: default
+title: Distribution Specification 
+parent: Open Container Initiative 
+nav_order: 1
+---
+
 # OCI Distribution Specification
+{: .no_toc }
 
 ## Overview
 - defines an API protocol to facilitate and standardize the distribution of content

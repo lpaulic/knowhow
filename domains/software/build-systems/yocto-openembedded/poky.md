@@ -1,4 +1,13 @@
+---
+layout: default
+title: Poky Distro
+parent: Yocto OpenEmbedded
+nav_order: 4
+
+---
+
 # Poky
+{: .no_toc }
 
 ## A reference Yocto Project
 

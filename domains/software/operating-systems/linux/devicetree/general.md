@@ -1,4 +1,12 @@
+---
+layout: default
+title: General 
+parent: Device tree
+nav_order: 1
+---
+
 # Devicetree general
+{: .no_toc }
 
 Originally devicetree was part of the Open Firmware project. That is why in the 
 Linux kernel the API functions have `*of*` in the function names.

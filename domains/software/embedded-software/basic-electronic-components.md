@@ -1,4 +1,12 @@
+---
+layout: default
+title: Basic Electronic Components 
+parent: Embedded Software
+nav_order: 2
+---
+
 # Basic electronic components
+{: .no_toc }
 
 ## Resistors
 - used in series or parallel
@@ -19,7 +27,7 @@ through it
 - for very slow signals the conductor is seen as a wire
 
 ## Ferrit beads
-- similar consturction as inductors but not used for the same purpose
+- similar construction as inductors but not used for the same purpose
 - used for filtering out unwanted signals
 - for firmware design purposes can be ignored
 - on schematic it looks like filled resistor
@@ -119,7 +127,7 @@ by a dot or flat edge (the bigger metal arm).
     - drain (D)
     - body (B)
 - between S and D there is thin layer of insulater to which the G is connected to.
-- MOSFET is simetrical so D and S are interchangeable
+- MOSFET is symmetrical so D and S are interchangeable
 - B and S are connected internally in the transistor housing
 - current flows in the D->S direction
 - electrons flow in the S->D direction

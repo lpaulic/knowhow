@@ -1,4 +1,12 @@
+---
+layout: default
+title: Bitbake
+parent: Yocto OpenEmbedded
+nav_order: 3
+---
+
 # Bitbake
+{: .no_toc }
 
 ## Intro
 
@@ -57,21 +65,21 @@ value3 \
 "
 ```
 
-Alongside assignment we have appending opperators:
+Alongside assignment we have appending operators:
 - `+=`: append value to variable with whitespace before the appending value 
 - `.=`: append value to variable without whitespace
 
-Appending opperators take effect during parsing. Order of assingement and 
-appending opperator matters.
+Appending operators take effect during parsing. Order of assingement and 
+appending operator matters.
 
-Alongside assignment we have prepending opperators:
+Alongside assignment we have prepending operators:
 - `=+`: prepend value to variable with whitespace after the appending value 
 - `=.`: prepend value to variable without whitespace
 
-Prepending opperators take effect during parsing. Order of assingement and 
-prepending opperator matters.
+Prepending operators take effect during parsing. Order of assingement and 
+prepending operator matters.
 
-Instead of using appending/prepending opperators you can use the Override style syntax:
+Instead of using appending/prepending operators you can use the Override style syntax:
 - appending:
 
 ```
@@ -212,7 +220,7 @@ Both `LICENSE` and `LIC_FILES_CHKSUM` need to be specified in the recipe. The
 `LICENSE` contains a license type string that the software is using. To find
 out which license is used in software check for a `COPYING`, or `LICENSE` files
 or look into the `README` or at the top of source code file. For standard 
-licesnes use name strings defined in `meta/files/common-licenses/`. The 
+licenses use name strings defined in `meta/files/common-licenses/`. The 
 `LIC_FILES_CHKSUM` needs to hold a URI path to the file containing the license 
 with the checksum option, i,e `md5=xxx`. This variable is used to verify if the 
 license file has changed.
@@ -381,7 +389,7 @@ There are two ways to create an image recipe:
 
 When creating images package groups are used. A package group is a set of 
 packages that can be included in any image. Package groups contain a set of
-packages. Using the pacakage group name in `IMAGE_INSTALL` variable installs 
+packages. Using the package group name in `IMAGE_INSTALL` variable installs 
 all the packages defined by the package group into the root file system of the
 target image. Many predefined package groups exist. They are located in 
 subdirectories named `packagegropus`. Package groups are recipes that start
@@ -560,7 +568,7 @@ In that case `PREFERRED_VERSION_${PN}` should be used. Version syntax supported:
 - specific version in sematci versioning syntax
 - using `%` wildcard
 
-### Recipe campatibility
+### Recipe compatibility
 
 A recipe is considered incompatible with the currently configured machine when 
 either or both `COMPATIBLE_HOST`and `COMPATIBLE_MACHINE` specify compatibility 
@@ -598,7 +606,7 @@ matches the recipe name with the recipe append name. The recipe appends should
 be in the custom layer, where the  holding directory of the recipe append file 
 is the same as the original recipe file. So the rules are:
 - root file must be the same between the recipe and the recipe append file,
-includin version if specified
+including version if specified
 - recipe file must exists somewhere in the build environment
 
 Layer priorities affect the recipe overriding as well as applying append files. 
@@ -620,7 +628,7 @@ File which holds:
 - hardware configuration information
 
 They tell the build system what to build and put into the image to support a 
-particular platorm. Extension used: `.conf`.
+particular platform. Extension used: `.conf`.
 Types of configuration files:
 - machine configuration options
 - distribution configuration options
@@ -660,7 +668,7 @@ Rules of thumb when writing machine configuration files:
 ## Class files
 
 Abstract common functionality and share them between multiple recipes. By 
-functionality it is ofte refert to functions, tasks, etc., that are used by 
+functionality it is often referred to functions, tasks, etc., that are used by 
 multiple recipes. Extension is: `.bbclass`.
 
 ## Include files
@@ -824,7 +832,7 @@ Tasks that a skipped task depended on will bi skipped.
 
 #### Sstate-cache
 
-Build performance comparrison on a machine that has 40+ cores and more than 
+Build performance comparison on a machine that has 40+ cores and more than 
 64GB of RAM, building minimal image:
 - Build with no sstate-chache or clean build: ~1.5 h
     - Parser recipes, execute all tasks

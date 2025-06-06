@@ -1,4 +1,12 @@
+---
+layout: default
+title: Clean Agile 
+parent: Software Development Methodologies
+nav_order: 1
+---
+
 # [Clean Agile: Back To Basics](https://www.amazon.com/Clean-Agile-Basics-Robert-Martin/dp/0135781868)
+{: .no_toc }
 
 ![Clean Agile: Back To Basics cover](https://m.media-amazon.com/images/I/61q+XwMbDIL._SY466_.jpg "Clean Agile: Back To Basics cover")
 

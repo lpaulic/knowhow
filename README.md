@@ -1,3 +1,9 @@
+---
+layout: default
+title: Home
+nav_order: 1
+---
+
 # Knowhow
 Repository for software knowhow gathered throguh the years.
 

@@ -1,4 +1,12 @@
+---
+layout: default
+title: Pragmatic Programmer 
+parent: Software Development Methodologies
+nav_order: 3
+---
+
 # [TitleThe Pragmatic Programmer: Your Journey To Mastery](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052)
+{: .no_toc }
 
 ![The Pragmatic Programmer: Your Journey To Mastery cover](https://m.media-amazon.com/images/I/71f743sOPoL._SL1500_.jpg "The Pragmatic Programmer: Your Journey To Mastery cover")
 
@@ -36,7 +44,7 @@
 ## 1 A Pragmatic Philosophy
 
 
-Being a pragmatic programer is displaying an attitude, a style, a philosophy of
+Being a pragmatic programmer is displaying an attitude, a style, a philosophy of
 approaching problems and their solution. Thinking about a problem placing it
 in the grander context of things, the big picture. Without the bit picture
 informed decisions and intelligent compromises can not be made.

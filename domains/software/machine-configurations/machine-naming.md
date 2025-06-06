@@ -1,4 +1,12 @@
+---
+layout: default
+title: Machine Naming Convention
+parent: Machine Configurations
+nav_order: 1
+---
+
 # Machine naming convention
+{: .no_toc }
 
 For personal work machines I am naming the macines 
 using tree names, i.e.: oak, olive, pine, etc. No specific 
@@ -9,7 +17,7 @@ The machine name represents the following machine configurations:
 - CPU
 - GPU
 - OS
-- Desktop environemnt
+- Desktop environment
 
 The machine name follows the following template:
 ```
@@ -30,5 +38,7 @@ Current machine profiles that I am using or have configured:
     - CPU: AMD
     - GPU: AMD + NVIDIA
     - OS: Arch Linux
-    - Desktop environemnt: Hyprland
+    - Desktop environment: Hyprland
 
+The utilization of the naming scheem can be found on my personal 
+dotfiles repository: [dotfiles](https://github.com/lpaulic/dotfiles)
