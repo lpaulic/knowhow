@@ -1,4 +1,12 @@
+---
+layout: default
+title: Yocto Project
+parent: Yocto OpenEmbedded
+nav_order: 2
+---
+
 # Yocto Project
+{: .no_toc }
 
 ## Intro
 
@@ -81,7 +89,7 @@ Link to the Yocto Project release: [Yocto Releases](https://wiki.yoctoproject.or
 
 - Distribution layers should be architecture agnostic, so only userspace tools 
 that are hardware agnostic should be located in distro layers
-- All layers should be tight together in a spearate repository or a repo 
+- All layers should be tight together in a separate repository or a repo 
 compatible manifest. The hardware agnostic distor is married with the hardware 
 with configuration files
 - Board specific layers should depend on layers for components that are used 

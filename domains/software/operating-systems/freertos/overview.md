@@ -1,4 +1,12 @@
+---
+layout: default
+title: Overview 
+parent: FreeRTOS
+nav_order: 1
+---
+
 # Free RTOS Overview
+{: .no_toc }
 
 ## RTOS Fundamentals
 

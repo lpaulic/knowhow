@@ -1,0 +1,27 @@
+# Basic site info
+title: Knowhow
+description: Gathered know how in different domains, mainly software
+author: lpaulic
+language: en
+
+# Base setup
+baseurl: "/"
+url: "https://lpaulic.github.io" 
+
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+
+# Navigation (this mimics SUMMARY.md
+# For most Jekyll themes, navigation is set up via a separate YAML file, e.g. _data/navigation.yml
+
+# Dark theme support (if your theme supports it)
+# Minimalistic theme supports auto dark mode, no config needed
+# For other themes, you may need to add a color_scheme or custom CSS
+color_scheme: dark  # Only if your theme supports this option
+
+# Exclude files (optional, but recommended)
+exclude:
+  - Gemfile
+  - Gemfile.lock
+

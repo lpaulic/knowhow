@@ -1,4 +1,12 @@
+---
+layout: default
+title: Toaster
+parent: Yocto OpenEmbedded
+nav_order: 7
+---
+
 # Toaster
+{: .no_toc }
 
 ## Links and resource
 

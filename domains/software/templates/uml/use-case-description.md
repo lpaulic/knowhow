@@ -1,3 +1,10 @@
+---
+layout: default
+title: UML use-case Templates
+parent: Templates
+nav_order: 6
+---
+
 # UML 2.0 Use-case textual definition
 
 ```

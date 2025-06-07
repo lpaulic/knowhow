@@ -1,4 +1,4 @@
-name: Build GitBook
+name: Build Jekyll Site
 
 on:
   pull_request:
@@ -6,47 +6,40 @@ on:
       - development
       - master
   workflow_call:
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
-  group: "build-pages"
+  group: "jekyll-build"
   cancel-in-progress: false
 
 jobs:
   build:
-    name: Build
+    name: Build Jekyll
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Install Node.js
-        uses: actions/setup-node@v4
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          node-version: '12.18.2'
+          ruby-version: '3.1'
 
-      - name: Install GitBook CLI
-        run: npm install -g gitbook-cli
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
 
-      - name: Install Plugins
-        run: gitbook install
+      - name: Build with Jekyll
+        run: bundle exec jekyll build
 
-      - name: Build GitBook
-        run: gitbook build
-
-      - name: Archive Build Artifacts
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_book
-
+          path: ./_site

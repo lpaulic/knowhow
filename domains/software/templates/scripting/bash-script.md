@@ -1,7 +1,15 @@
+---
+layout: default
+title: Bash Script Templates
+parent: Templates
+nav_order: 5
+---
+
 # Bash shell script
+{: .no_toc }
 
 ```
-#!/bin/bash
+#!/bin/env bash
 
 ### Metadata ###
 # Description: Script for updating the cellular modem. Accepts the 

@@ -1,11 +1,19 @@
+---
+layout: default
+title: West tool 
+parent: Zephyr
+nav_order: 1
+---
+
 # West - Zephyr meta-tool
+{: .no_toc }
 
 ## Environment setup 
 
 Setting up the build environment by using a docker image. The docker image for 
 zephyr can be found on this Github repo: [Zephyr docker image](https://github.com/zephyrproject-rtos/docker-image).
 After building the docker image following the instructions on the repo, 
-setup the directory structore locally, i.e.:
+setup the directory structure locally, i.e.:
 
 ```
     ~/zephyr-world         -> zephyr workspace for west

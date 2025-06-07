@@ -1,4 +1,12 @@
+---
+layout: default
+title: Basic Electronic Instruments 
+parent: Embedded Software
+nav_order: 4
+---
+
 # Common electronic instruments and tools
+{: .no_toc }
 
 Electronic instruments every firmware engineer should have and know how to use:
 - laboratory power supply
@@ -11,7 +19,7 @@ Electronic instruments every firmware engineer should have and know how to use:
 - usually have banana type connectors
 - prefer power supplies that have separate output enable from the device powr on/off switch. This
 enables user to set the voltage and current limits before turning the power supply output on
-- when setting the voltage and current limits refert to the power supply manual
+- when setting the voltage and current limits refer to the power supply manual
 - power supply channel in general can be connected in parallel to get more current than available on single channel 
 - power supply channel in general can be connected in serial to get more voltage than available on single channel 
 
@@ -23,7 +31,7 @@ enables user to set the voltage and current limits before turning the power supp
 readings are not that precise
 - consists of the following parts:
     - display for showing measuring information
-    - dial for selecting electrical values and ranges to be meassured
+    - dial for selecting electrical values and ranges to be measured
     - ports to connect the component under measure
     - probes that connect to the component and the ports
 - multimeters have multiple ports:
@@ -57,7 +65,7 @@ for the port that is connected to and decrease in steps
 
 ### Check continuity
 - most multimeters have the feature of measuring the continuity of a circuit
-- connect the probes to the appropirate probes
+- connect the probes to the appropriate probes
 - select the continuity mode, has like a spaker symbol
 - touch the part of the circuit with the connected probes, if they are connected there will be a small resistance
 which will trigger the buzzing sound

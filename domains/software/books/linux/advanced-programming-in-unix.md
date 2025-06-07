@@ -1,4 +1,12 @@
+---
+layout: default
+title: Advanced Programming in UNIX
+parent: Linux
+nav_order: 1
+---
+
 # [Advanced Programming in the UNIX Environment](https://www.amazon.com/Advanced-Programming-UNIX-Environment-3rd/dp/0321637739)
+{: .no_toc }
 
 ![Advanced Programming in the UNIX Environment cover](https://m.media-amazon.com/images/I/71dfQT21HzL._SL1500_.jpg "Advanced Programming in the UNIX Environment cover")
 

@@ -1,4 +1,12 @@
+---
+layout: default
+title: Image Specification 
+parent: Open Container Initiative 
+nav_order: 2
+---
+
 # OCI Image Format Specification
+{: .no_toc }
 
 ## Overview
 - OCI image format is composed by metadata and dependencies that when unpacked make up the runnable filesystem
@@ -148,7 +156,7 @@ to encode an transfer artefacts
         - this media type is gzip compressed `application/vnd.oci.image.layer.nondistributable.v1.tar+gzip` content
 
 ### Change types
-- types of changes that can occur in changsets:
+- types of changes that can occur in changesets:
     - additions
     - modifications
     - removals

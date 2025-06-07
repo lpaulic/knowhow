@@ -1,4 +1,12 @@
+---
+layout: default
+title: Devtool
+parent: Yocto OpenEmbedded
+nav_order: 6
+---
+
 # Devtool
+{: .no_toc }
 
 ## Links and resources
 

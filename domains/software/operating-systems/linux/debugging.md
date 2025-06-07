@@ -1,4 +1,12 @@
+---
+layout: default
+title: Linux Debugging
+parent: Linux Kernel
+nav_order: 2
+---
+
 # Debugging Linux kernel
+{: .no_toc }
 
 ## Inspecting memory dumps
 

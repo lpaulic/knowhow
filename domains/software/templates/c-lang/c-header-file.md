@@ -1,4 +1,12 @@
+---
+layout: default
+title: C Header Templates
+parent: Templates
+nav_order: 2
+---
+
 # C header file
+{: .no_toc }
 
 ```
 /**

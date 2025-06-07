@@ -1,4 +1,12 @@
+---
+layout: default
+title: Linux Runtime
+parent: Linux Kernel
+nav_order: 1
+---
+
 # Linux kernel runtime
+{: .no_toc }
 
 ## Kernel configuration
 To check the configuration of a running linux based OS:

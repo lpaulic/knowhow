@@ -1,4 +1,12 @@
+---
+layout: default
+title: C Source Templates
+parent: Templates
+nav_order: 3
+---
+
 # C source file
+{: .no_toc }
 
 ```
 /**

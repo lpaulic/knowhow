@@ -1,4 +1,12 @@
+---
+layout: default
+title: Git 
+parent: Source Control Management
+nav_order: 1
+---
+
 # Git
+{: .no_toc }
 
 ## Learning Git
 Materials that serve as good starting point to:
