@@ -1,23 +1,23 @@
----
-layout: default
-title: Home
-nav_order: 1
----
-
 # Knowhow
 Repository for software knowhow gathered throguh the years.
 
-## Getting around
-The repository is intended to be an overview of knowledge specific for 
-software engineering in Linux and Embedded Linux. This repository was not 
-maintained from the beginning of my work experience so some things that I've 
-have experience in is not documente, but they will be added when and if 
-I need to use that knowledge again.
+## Dependencies
 
-Other domains, apart from software, will be added in the future.
+This repository uses Ruby and Jekyll to run the documentation 
+presentation.
+The theme used is [just-the-docs](https://github.com/just-the-docs/just-the-docs)
 
-The idea for this repository is to contain templates, knowledge, book notes,
-etc.
+## Running locally
 
-If there is wrong info let me know through issue reports. I will fix all the 
-mistakes or missing info.
+To run the webpages locally install Ruby and gem dependencies:
+```
+gem install jekyll bundler
+bundle install
+```
+
+**NOTE: Make sure that ruby and the dependencies are installd for your user.**
+
+To build and run the webpages:
+```
+bundle exec jekyll serve
+```
