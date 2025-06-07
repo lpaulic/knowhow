@@ -5,8 +5,8 @@ author: lpaulic
 language: en
 
 # Base setup
-baseurl: "/"
 url: "https://lpaulic.github.io" 
+baseurl: "/knowhow"
 
 remote_theme: just-the-docs/just-the-docs
 plugins:
