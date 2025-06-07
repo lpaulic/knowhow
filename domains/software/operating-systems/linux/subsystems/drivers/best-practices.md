@@ -1,4 +1,12 @@
+---
+layout: default
+title: Linux Drivers Best Practices 
+parent: Linux Drivers
+nav_order: 1
+---
+
 # Best practices in device driver development
+{: .no_toc }
 
 ## Device mapping
 <!-- TODO: describe how to map the device internals to C code structures -->

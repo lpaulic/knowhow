@@ -1,4 +1,12 @@
+---
+layout: default
+title: Docker Debugging
+parent: Docker
+nav_order: 1
+---
+
 # Debugging Docker
+{: .no_toc }
 
 ## Using mitmproxy to output API calls
 - check if mitmproxy is running
@@ -40,7 +48,7 @@ sudo trust extract-compat
 ```
 sudo HTTPS_PROXY=http://localhost:8080/ dockerd  # bash
 ```
-- run `ducker pull ubunut` and inspect `mitmproxy` output
+- run `ducker pull ubuntu` and inspect `mitmproxy` output
 - saving a `mitmproxy` flow
 
 ```

@@ -1,4 +1,12 @@
+---
+layout: default
+title: KNX
+parent: Automation
+nav_order: 1
+---
+
 # KNX
+{: .no_toc }
 
 ## Basic overview
 
@@ -161,7 +169,7 @@ Devices are connected directly to the 230V mains network.
 
 #### KNX RF (Radio Frequency)
 
-Appropriat KNX communication medium when it is not possible to lay
+Appropriate KNX communication medium when it is not possible to lay
 new cables (i.e.: sensors are not reachable). It is also suitable
 for extending existing KNX TP installations. It is possible to have
 all technology in a building to be controlled wirelessly but let that
@@ -184,16 +192,16 @@ the correct center frequency. There are two upwards-compatibe
 KNX RF versions - KNX RF Ready and KNX RF Multi. Center frequency
 for KNX RF Ready is 868.3 MHz and only one communication channel 
 is available. This is highy vulnerable to interference from other
-radio frequencies in the same or adjecent bands. KNX RF Multi overcomes
+radio frequencies in the same or adjacent bands. KNX RF Multi overcomes
 this interference by enabling devices to switch between the occupied 
 channel (F1 in KNX RF F1) to two fast channels (F2, F3) or two slow
 channels (S1, S2). Fast channels are for device operated by humans
 while the slow channels are for devices that do not need to be 
 in receiver mode permanently. Fast channels have data rates 
 of 16.348 bits/s and slow channels half of that.
-Channel identification is done by utlizing the preamble in 
+Channel identification is done by utilizing the preamble in 
 the telegram. Multi channel devices must be able to downgrade
-to single channel. KNX RF Multi enbles verifications that
+to single channel. KNX RF Multi enables verifications that
 the telegram has been received using FIACK (Fast IACK).
 If no IACK is received telegram is automatically repeated.
 
@@ -283,7 +291,7 @@ Line repeaters can be added if more than
 64 devices are needed to be connected on a line.
 Sections added with a line repeater are known as
 line segments. A line segment consists of a line 
-repeater and then a tipical KNX TP line again.
+repeater and then a typical KNX TP line again.
 The maximum number of repeaters in parallel on line
 is 3. This meands that the maximum number of 
 devices in a line is 255.
@@ -298,7 +306,7 @@ because a line coupler will not send a telegram to
 a line for which it is not destined. Up to 15 lines 
 can be operated via a line couplers on a line, 
 referred to as the main line. The main line can still 
-accomondate 64 devices but line repreaters can not be
+accommodate 64 devices but line repreaters can not be
 used if line coupler is used. Each line needs its own
 power supply.
 

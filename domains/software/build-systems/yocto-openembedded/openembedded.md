@@ -1,4 +1,12 @@
+---
+layout: default
+title: OpenEmbedded
+parent: Yocto OpenEmbedded
+nav_order: 1
+---
+
 # OpenEmbedded Project
+{: .no_toc }
 
 ## What is it?
 
@@ -57,7 +65,7 @@ Naming convention: `meta-<layername>`.
 
 Layers enable us to isolate metadata according to functionality. For example 
 layer for BSP, GUI, application, middleware, distribution configuration. 
-This approach enbles us to easliy add bigger sets of metadata or replace other
+This approach enables us to easliy add bigger sets of metadata or replace other
 sets of metadata. Layers stack on top of one another, the order is specified in
 the a configuration file via priorities.
 
@@ -111,5 +119,5 @@ The layer index is also a good reference when designing a layer. You can search
 layers based on type: BSP, Distribution, Base, etc. This is the best way to 
 learn what is the De Facto standard when creating a specific type of layer. 
 By that I meand which recipes got to which type of layer. This knowledge falls 
-into the category of 'the art of development' and separates beginers 
+into the category of 'the art of development' and separates beginners 
 from experts. 

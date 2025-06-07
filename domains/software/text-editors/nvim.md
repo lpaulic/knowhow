@@ -1,4 +1,12 @@
+---
+layout: default
+title: Neo VIM
+parent: Text Editors
+nav_order: 1
+---
+
 # [Neo Vim](https://neovim.io/)
+{: .no_toc }
 
 ## Configuration
 

@@ -1,7 +1,15 @@
+---
+layout: default
+title: Electronic Module Safety 
+parent: Embedded Software
+nav_order: 5
+---
+
 # Safety Precautions while Working with Electronic Modules
+{: .no_toc }
 
 Precautions need to be taken, especially by firmware engineers,
-when hadnling electronic modules to prevent:
+when handling electronic modules to prevent:
 - ESD damage
 - physical damage
 - heat and humidity
@@ -26,7 +34,7 @@ when in contact it another chareged object
         - < 100 HBM
         - < 200 CDM
 - we can have catastrophic failures (burned components) or latent failures
-(not visible, failures are slow to manifest especially after repeted exposure)
+(not visible, failures are slow to manifest especially after repeated exposure)
 - to protect remove any unnecessary things from ESD area, wear grounding gear
 when interacting with exposed electronic modules, store exposed electronic 
 modules in ESD safe storage (bags, boxes, etc.)
@@ -35,7 +43,7 @@ ESDS circuits
 
 
 ## Physical damage
-- damage by misshandling or environemental stress, intentional or unintentional
+- damage by misshandling or environmental stress, intentional or unintentional
 - dropping, bending the module might cause in the PCB to break, PCB lines or ICs
 to break as well
 - bending wires, resoldering a point to much might cause connectios to wear off
