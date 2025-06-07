@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Software
-nav_order: 2
+parent: Knowhow
+nav_order: 1
 ---
 
 # Software
