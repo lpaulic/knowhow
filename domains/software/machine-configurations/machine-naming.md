@@ -29,6 +29,10 @@ if two machines have the same above components they will have the
 same profile name name. Each machine will have its own SN. 
 
 Current machine profiles that I am using or have configured:
+- `bonsai`:
+    - Windows WSL distribution
+    - OS: Arch Linux
+    - Desktop environemnt: Headless
 - `ginkgo`:
     - CPU: AMD
     - GPU: AMD
